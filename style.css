@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+.header{
+    width: 100%;
+}
+.container{
+    width: 1352px;
+    height: 70px;
+}
+.logo span{
+
+}
