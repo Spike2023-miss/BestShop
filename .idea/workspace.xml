@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f3da3d30-bd85-4c8a-aeca-f9e9e929975a" name="Changes" comment="added benefits">
+    <list default="true" id="f3da3d30-bd85-4c8a-aeca-f9e9e929975a" name="Changes" comment="added benefits section">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ONL_FEU_W_01_Prework_HTML_CSS" beforeDir="false" afterPath="$PROJECT_DIR$/../ONL_FEU_W_01_Prework_HTML_CSS" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ONL_FEU_W_01_Prework_JavaScript" beforeDir="false" afterPath="$PROJECT_DIR$/../ONL_FEU_W_01_Prework_JavaScript" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ONL_FEU_W_01_Prework_JavaScript/04_Kontrola_przeplywu_-_Instrukcje_warunkowe/01_Ocena_egzaminu/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ONL_FEU_W_01_Prework_JavaScript/04_Kontrola_przeplywu_-_Instrukcje_warunkowe/01_Ocena_egzaminu/js/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,6 +90,7 @@
       <workItem from="1701445149726" duration="1797000" />
       <workItem from="1701936679548" duration="2524000" />
       <workItem from="1701943320091" duration="12933000" />
+      <workItem from="1701972886899" duration="1187000" />
     </task>
     <task id="LOCAL-00001" summary="added files">
       <option name="closed" value="true" />
@@ -164,6 +167,7 @@
     <MESSAGE value="benefits" />
     <MESSAGE value="adds" />
     <MESSAGE value="added benefits" />
-    <option name="LAST_COMMIT_MESSAGE" value="added benefits" />
+    <MESSAGE value="added benefits section" />
+    <option name="LAST_COMMIT_MESSAGE" value="added benefits section" />
   </component>
 </project>
