@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f3da3d30-bd85-4c8a-aeca-f9e9e929975a" name="Changes" comment="added files to images folder">
+    <list default="true" id="f3da3d30-bd85-4c8a-aeca-f9e9e929975a" name="Changes" comment="Creating css files and adding reset.css">
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ONL_FEU_W_01_Prework_HTML_CSS" beforeDir="false" afterPath="$PROJECT_DIR$/../ONL_FEU_W_01_Prework_HTML_CSS" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ONL_FEU_W_01_Prework_JavaScript" beforeDir="false" afterPath="$PROJECT_DIR$/../ONL_FEU_W_01_Prework_JavaScript" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,6 +88,7 @@
       <workItem from="1701426083817" duration="559000" />
       <workItem from="1701426652771" duration="304000" />
       <workItem from="1701445149726" duration="1797000" />
+      <workItem from="1701936679548" duration="2524000" />
     </task>
     <task id="LOCAL-00001" summary="added files">
       <option name="closed" value="true" />
@@ -110,7 +114,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701426837055</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Creating css files and adding reset.css">
+      <option name="closed" value="true" />
+      <created>1701937035139</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1701937035140</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,6 +142,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added files" />
     <MESSAGE value="added files to images folder" />
-    <option name="LAST_COMMIT_MESSAGE" value="added files to images folder" />
+    <MESSAGE value="Stworzenie plików css i dodanie reset.css" />
+    <MESSAGE value="Creating css files and adding reset.css" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creating css files and adding reset.css" />
   </component>
 </project>
