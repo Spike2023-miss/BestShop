@@ -196,6 +196,7 @@ h2 {
     margin-top: 19px;
 }
 /*benefits*/
+
 .benefits {
     margin-top: 200px;
     padding: 100px 0;
@@ -227,7 +228,10 @@ h2 {
     display: block;
     margin-top: 50px;
 }
-
+.benefits__title{
+    font-size: 36px;
+    font-family: sans-serif;
+}
 .benefits__description {
     margin-top: 30px;
     line-height: 1.375rem;
@@ -242,6 +246,7 @@ h2 {
 }
 .benefits__single--notebook {
     --accent-color: var(--color-redish);
+
 }
 .benefits__single--notebook .benefits__image {
     margin-right: 117px;
