@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f3da3d30-bd85-4c8a-aeca-f9e9e929975a" name="Changes" comment="adds">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="f3da3d30-bd85-4c8a-aeca-f9e9e929975a" name="Changes" comment="statistics">
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ONL_FEU_W_01_Prework_HTML_CSS" beforeDir="false" afterPath="$PROJECT_DIR$/../ONL_FEU_W_01_Prework_HTML_CSS" afterDir="false" />
@@ -90,7 +89,7 @@
       <workItem from="1701426652771" duration="304000" />
       <workItem from="1701445149726" duration="1797000" />
       <workItem from="1701936679548" duration="2524000" />
-      <workItem from="1701943320091" duration="4409000" />
+      <workItem from="1701943320091" duration="7106000" />
     </task>
     <task id="LOCAL-00001" summary="added files">
       <option name="closed" value="true" />
@@ -148,6 +147,7 @@
     <MESSAGE value="Creating css files and adding reset.css" />
     <MESSAGE value="opening" />
     <MESSAGE value="adds" />
-    <option name="LAST_COMMIT_MESSAGE" value="adds" />
+    <MESSAGE value="statistics" />
+    <option name="LAST_COMMIT_MESSAGE" value="statistics" />
   </component>
 </project>
