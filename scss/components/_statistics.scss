@@ -1,0 +1,86 @@
+.statistics{
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.container-statistics{
+  height: 600px;
+}
+
+.statistics-title{
+  font-size: 36px;
+  font-family: var(--font-raleway);
+}
+h2 {
+  font-family: var(--font-raleway);
+  font-size: 2.25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.statistic-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 100px auto 120px;
+  max-width: 800px;
+  flex-direction: row;
+}
+
+.statistics-single{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-family: var(--font-raleway);
+  justify-content: flex-start;
+  max-width: 160px;
+  text-align: center;
+}
+.statistics-circle{
+  border-radius: 50%;
+  width: 63px;
+  height: 63px;
+  position: relative;
+}
+.statistics-img{
+  position: absolute;
+}
+/* circles*/
+.statistics-single:nth-child(1) .statistics-circle {
+  background-color: var(--color-redish);
+}
+
+.statistics-single:nth-child(1) .statistics-img {
+  top: 0;
+  left: 45%;
+}
+
+.statistics-single:nth-child(2) .statistics-circle {
+  background-color: var(--color-primary);
+}
+
+.statistics-single:nth-child(2) .statistics-img {
+  top: 14px;
+  left: 47%;
+}
+
+.statistics-single:nth-child(3) .statistics-circle {
+  background-color: var(--color-green);
+}
+
+.statistics-single:nth-child(3) .statistics-img {
+  top: 6px;
+  left: 50%;
+}
+.statistics-number {
+  font-size: 1.25rem;
+  font-weight: 800;
+  letter-spacing: 0.1875rem;
+  margin-top: 13px;
+}
+
+.statistics-description {
+  color: var(--color-grey);
+  margin-top: 19px;
+}

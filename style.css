@@ -152,7 +152,7 @@ a {
     font-size: 36px;
     font-family: var(--font-raleway);
 }
-h2 {
+.h2 {
     font-family: var(--font-raleway);
     font-size: 2.25rem;
     display: flex;
@@ -325,18 +325,6 @@ h2 {
     padding: 0 20px 0 70px;
 }
 
-.benefits-single-phone .benefits-image::before {
-    content: "";
-    width: 320px;
-    height: 320px;
-    background-color: var(--accent-color);
-    display: block;
-    border-radius: 50%;
-    position: absolute;
-    left: 0;
-    top: -20px;
-}
-
 .benefits-single-phone .benefits-image img {
     width: 426px;
     height: auto;
@@ -480,3 +468,68 @@ h2 {
     --accent-color: var(--color-green);
 }
 /*contact container*/
+
+.contact-container{
+
+
+}
+.contact-column{
+
+
+}
+.contact-title{
+
+
+}
+.contact-instruction{
+
+
+}
+.contact-details{
+
+
+}
+.details-item{
+
+
+}
+.details-item{
+
+
+}
+.contact-column{
+
+
+}
+.form{
+
+
+}
+.form-field{
+
+
+}
+.form-label{
+
+
+}
+.text{
+
+
+}
+.form-field{
+
+
+}
+.form-consent{
+
+
+}
+.form-checkbox{
+
+
+}
+.checkbox{
+
+
+}

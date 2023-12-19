@@ -4,9 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f3da3d30-bd85-4c8a-aeca-f9e9e929975a" name="Changes" comment="added benefits section">
+    <list default="true" id="f3da3d30-bd85-4c8a-aeca-f9e9e929975a" name="Changes" comment="section contact container and footer html">
+      <change afterPath="$PROJECT_DIR$/scss/components/_basic.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/components/_benefits.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/components/_contact.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/components/_header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/components/_opening.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/components/_pricing.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/components/_statistics.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/components/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/main.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reset.css" beforeDir="false" afterPath="$PROJECT_DIR$/reset.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,6 +29,7 @@
       <list>
         <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -76,7 +87,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/paulinka/Documents/Coderslab/BestShop/images",
+    "last_opened_file_path": "/Users/paulinka/Documents/Coderslab/BestShop/scss/components",
+    "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -87,8 +99,27 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/scss/components" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/images" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -108,7 +139,8 @@
       <workItem from="1702020252606" duration="4548000" />
       <workItem from="1702035356211" duration="1817000" />
       <workItem from="1702112143889" duration="41000" />
-      <workItem from="1702112213668" duration="13625000" />
+      <workItem from="1702112213668" duration="19327000" />
+      <workItem from="1702976070823" duration="12943000" />
     </task>
     <task id="LOCAL-00001" summary="added files">
       <option name="closed" value="true" />
@@ -174,7 +206,31 @@
       <option name="project" value="LOCAL" />
       <updated>1702034665260</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="section improvement benefits and pricing">
+      <option name="closed" value="true" />
+      <created>1702369960916</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1702369960916</updated>
+    </task>
+    <task id="LOCAL-00010" summary="section improvement benefits and pricing">
+      <option name="closed" value="true" />
+      <created>1702369995011</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1702369995011</updated>
+    </task>
+    <task id="LOCAL-00011" summary="section contact container and footer html">
+      <option name="closed" value="true" />
+      <created>1702371924932</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1702371924932</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,6 +258,8 @@
     <MESSAGE value="adds" />
     <MESSAGE value="added benefits" />
     <MESSAGE value="added benefits section" />
-    <option name="LAST_COMMIT_MESSAGE" value="added benefits section" />
+    <MESSAGE value="section improvement benefits and pricing" />
+    <MESSAGE value="section contact container and footer html" />
+    <option name="LAST_COMMIT_MESSAGE" value="section contact container and footer html" />
   </component>
 </project>
