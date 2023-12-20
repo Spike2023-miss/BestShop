@@ -4,20 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f3da3d30-bd85-4c8a-aeca-f9e9e929975a" name="Changes" comment="section contact container and footer html">
-      <change afterPath="$PROJECT_DIR$/scss/components/_basic.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/components/_benefits.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/components/_contact.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/components/_header.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/components/_opening.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/components/_pricing.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/components/_statistics.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/components/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/main.scss" afterDir="false" />
+    <list default="true" id="f3da3d30-bd85-4c8a-aeca-f9e9e929975a" name="Changes" comment="color name change">
+      <change afterPath="$PROJECT_DIR$/scss/components/_footer.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reset.css" beforeDir="false" afterPath="$PROJECT_DIR$/reset.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js.js" beforeDir="false" afterPath="$PROJECT_DIR$/js.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/components/_basic.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/components/_basic.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/components/_benefits.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/components/_benefits.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/components/_contact.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/components/_contact.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/components/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/components/_header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/components/_opening.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/components/_opening.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/components/_pricing.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/components/_pricing.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/components/_statistics.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/components/_statistics.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,7 +138,7 @@
       <workItem from="1702035356211" duration="1817000" />
       <workItem from="1702112143889" duration="41000" />
       <workItem from="1702112213668" duration="19327000" />
-      <workItem from="1702976070823" duration="12943000" />
+      <workItem from="1702976070823" duration="36725000" />
     </task>
     <task id="LOCAL-00001" summary="added files">
       <option name="closed" value="true" />
@@ -230,7 +228,23 @@
       <option name="project" value="LOCAL" />
       <updated>1702371924932</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="import">
+      <option name="closed" value="true" />
+      <created>1703008797155</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1703008797155</updated>
+    </task>
+    <task id="LOCAL-00013" summary="changes">
+      <option name="closed" value="true" />
+      <created>1703017789577</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1703017789577</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -260,6 +274,9 @@
     <MESSAGE value="added benefits section" />
     <MESSAGE value="section improvement benefits and pricing" />
     <MESSAGE value="section contact container and footer html" />
-    <option name="LAST_COMMIT_MESSAGE" value="section contact container and footer html" />
+    <MESSAGE value="import" />
+    <MESSAGE value="changes" />
+    <MESSAGE value="color name change" />
+    <option name="LAST_COMMIT_MESSAGE" value="color name change" />
   </component>
 </project>

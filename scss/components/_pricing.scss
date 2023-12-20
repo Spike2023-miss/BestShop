@@ -6,12 +6,10 @@
   margin: 100px auto;
 }
 .container h2{
-  font-family: var(--font-raleway);
+  font-family: $font-raleway;
   font-size: 30px;
 }
 .pricing.container {
-  width: 1352px;
-  height: 300px;
 }
 .pricing-boxes {
   display: flex;
@@ -25,7 +23,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 1px solid var(--accent-color);
+  border: 1px solid $color-primary;
 }
 .pricing-details {
   margin-bottom: 60px;
@@ -35,23 +33,23 @@
 
 .pricing-type {
   font-size: 1.25rem;
-  font-family: var(--font-raleway);
+  font-family: $font-raleway;
   font-weight: 700;
 }
 
 .pricing-price {
   font-size: 2.875rem;
-  font-family: var(--font-open-sans);
+  font-family: $font-open-sans;
   font-weight: 300;
   margin-top: 25px;
-  color: var(--accent-color);
+  color: $color-primary;
 }
 
 .pricing-limited {
   text-align: center;
   margin-top: 15px;
   font-size: 0.75rem;
-  font-family: var(--font-raleway);
+  font-family: $font-raleway;
   font-weight: 700;
 }
 .pricing-items {
@@ -78,17 +76,18 @@
   position: relative;
   bottom: -25px;
   font-size: 0.8125rem;
-  background-color: var(--accent-color);
+  background-color: $color-primary;
+
 }
 .pricing-box-basic {
-  --accent-color: var(--color-redish);
+  border-color: $color-redish;
   margin-bottom: 30px;
 }
 .pricing-box-professional {
-  --accent-color: var(--color-primary);
+  color: $color-primary;
   width: 400px;
   margin: 0 40px;
-  box-shadow: 5px 1px 27px var(--color-primary-shadow);
+  box-shadow: 5px 1px 27px $color-primary-shadow;
 }
 
 .pricing-box-professional .pricing-type {
@@ -99,5 +98,26 @@
   margin-bottom: 25px;
 }
 .pricing-box-premium {
-  --accent-color: var(--color-green);
+  border-color: $color-green;
+}
+
+a.btn {
+  color: white;
+  font-weight: bold;
+  display: inline-block;
+  padding: 16px 65px;
+  border-radius: $button-radius;
+  border: none;
+  margin-top: 30px;
+}
+
+.btn-primary {
+  background-color: $color-primary;
+  border-radius: $button-radius;
+  box-shadow: 3px 10px 14px $color-primary-shadow;
+  color: $color-white;
+}
+
+.btn-large {
+  padding: 22px 155px;
 }

@@ -1,25 +1,23 @@
+.header {
+  height: 70px;
+  width: 1627px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+}
 .header-container {
   align-items: center;
   display: flex;
-  height: 100%;
   justify-content: space-between;
-  padding: 10px;
+  height: 100%;
 }
-.container .header {
-  height: 70px;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
-  text-align: left;
-  margin: 0 auto;
-  width: 1352px;
-}
-
 .logo {
-  font-family: var(--font-raleway);
+  font-family: $font-raleway;
   font-size: 2rem;
   font-weight: 300;
-  color: var(--color-primary);
-  margin-left: 82px;
-  margin-top: 20px;
+  color: $color-primary;
+  padding-bottom: 16px;
+  padding-left: 136px;
+  width: 142px;
+  height: 37px;
 
 }
 
@@ -31,18 +29,23 @@
   padding: 0 26px;
 }
 .nav-link {
-  color: var(--color-grey);
+  color: $color-primary;
   font-weight: 700;
   font-size: 0.6875rem;
   text-transform: uppercase;
   padding: 28px 18px 22px;
   border-bottom: 4px solid transparent;
   letter-spacing: 0.1875rem;
+  top: 28px;
+  left: 946px;
+  width: 60px;
+  height: 15px;
+
 }
 
 .nav-link:hover {
-  color: var(--color-black);
-  border-color: var(--color-primary);
+  color: $color-black;
+  border-color: $color-primary;
 }
 
 .nav-element:last-child {

@@ -19,8 +19,12 @@ a {
 #contact{
   padding: 80px 100px 100px;
   display: flex;
+  height: 600px;
   justify-content: center;
+  background: $color-white;
 }
 #prices{
-
+  width: 1627px;
+  height: 800px;
+  background: $color-white;
 }
