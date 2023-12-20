@@ -1,22 +1,32 @@
 .statistics{
-  margin-top: 100px;
+  width: 1627px;
+  margin:50px;
   display: flex;
   flex-direction: column;
 }
 
 .container-statistics{
-  height: 600px;
+  width: 1627px;
+  height: 531px;
+  top: 912px;
+  background: $color-white;
 }
 
-.statistics-title{
+.statistic-title{
   font-size: 36px;
-  font-family: var(--font-raleway);
+  font-family: $font-raleway;
+  top: 1154px;
+  left: 434px;
+  width: 63px;
+  height: 63px;
+  background: #FB3B64 0% 0% no-repeat padding-box;
+  opacity: 1;
 }
+
 h2 {
-  font-family: var(--font-raleway);
+  font-family: $font-raleway;
   font-size: 2.25rem;
   display: flex;
-  justify-content: center;
   align-items: center;
 }
 .statistic-container {
@@ -28,59 +38,76 @@ h2 {
   flex-direction: row;
 }
 
-.statistics-single{
+.statistic-single{
   align-items: center;
   display: flex;
   flex-direction: column;
-  font-family: var(--font-raleway);
+  font-family: $font-raleway;
   justify-content: flex-start;
   max-width: 160px;
   text-align: center;
+  top: 1155px;
+  left: 713px;
+  width: 176px;
+  height: 167px;
+
 }
-.statistics-circle{
+.statistic-circle{
   border-radius: 50%;
   width: 63px;
   height: 63px;
-  position: relative;
+  top: 1154px;
+  left: 434px;
 }
-.statistics-img{
-  position: absolute;
+.statistic-img{
+  top: 1157px;
+  left: 464px;
+  width: 44px;
+  height: 52px;
+
 }
 /* circles*/
-.statistics-single:nth-child(1) .statistics-circle {
-  background-color: var(--color-redish);
+.statistic-single:nth-child(1) .statistic-circle {
+  background-color: $color-redish;
 }
 
-.statistics-single:nth-child(1) .statistics-img {
+.statistic-single:nth-child(1) .statistic-img {
   top: 0;
   left: 45%;
 }
 
-.statistics-single:nth-child(2) .statistics-circle {
-  background-color: var(--color-primary);
+.statistic-single:nth-child(2) .statistic-circle {
+  background-color: $color-primary;
 }
 
-.statistics-single:nth-child(2) .statistics-img {
+.statistic-single:nth-child(2) .statistic-img {
   top: 14px;
   left: 47%;
 }
 
-.statistics-single:nth-child(3) .statistics-circle {
-  background-color: var(--color-green);
+.statistic-single:nth-child(3) .statistic-circle {
+  background-color: $color-green;
 }
 
-.statistics-single:nth-child(3) .statistics-img {
+.statistic-single:nth-child(3) .statistic-img {
   top: 6px;
   left: 50%;
 }
-.statistics-number {
-  font-size: 1.25rem;
+.statistic-number {
+  font-size: 20px;
   font-weight: 800;
-  letter-spacing: 0.1875rem;
   margin-top: 13px;
+  top: 1231px;
+  left: 412px;
+  width: 116px;
+  height: 24px;
+  text-align: center;
+  letter-spacing: 5.96px;
+  color: #000000;
+  opacity: 1;
 }
 
-.statistics-description {
-  color: var(--color-grey);
+.statistic-description {
+  color: $color-grey;
   margin-top: 19px;
 }
