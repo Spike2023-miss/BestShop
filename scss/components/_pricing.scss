@@ -10,6 +10,7 @@
   font-size: 30px;
 }
 .pricing.container {
+  width: 100%;
 }
 .pricing-boxes {
   display: flex;
@@ -35,11 +36,13 @@
   font-size: 1.25rem;
   font-family: $font-raleway;
   font-weight: 700;
+  color: black;
 }
 
 .pricing-price {
   font-size: 2.875rem;
   font-family: $font-open-sans;
+  margin-bottom: 40px;
   font-weight: 300;
   margin-top: 25px;
   color: $color-primary;
@@ -51,18 +54,19 @@
   font-size: 0.75rem;
   font-family: $font-raleway;
   font-weight: 700;
+  color:black;
 }
 .pricing-items {
   text-align: center;
+  color: black;
 }
 
 .pricing-item {
   font-size: 14px;
-  margin-bottom: 20px;
+  margin: 20px;
 }
 .pricing-item::before {
   content: "";
-  width: 11px;
   height: 11px;
   display: inline-block;
   margin-right: 10px;
@@ -70,6 +74,8 @@
 }
 
 .pricing-item-not::before {
+  content: "";
+  color: $color-redish;
 
 }
 .pricing-box .btn {
@@ -81,7 +87,9 @@
 }
 .pricing-box-basic {
   border-color: $color-redish;
-  margin-bottom: 30px;
+}
+.pricing-box-basic .btn{
+  background: $color-redish;
 }
 .pricing-box-professional {
   color: $color-primary;
@@ -100,7 +108,9 @@
 .pricing-box-premium {
   border-color: $color-green;
 }
-
+.pricing-box-premium .btn{
+  background: $color-green;
+}
 a.btn {
   color: white;
   font-weight: bold;
@@ -116,8 +126,4 @@ a.btn {
   border-radius: $button-radius;
   box-shadow: 3px 10px 14px $color-primary-shadow;
   color: $color-white;
-}
-
-.btn-large {
-  padding: 22px 155px;
 }

@@ -109,7 +109,7 @@
 /*phone*/
 
 .benefits-single-phone {
-  --accent-color: $color-primary;
+  color: $color-primary;
   flex-direction: row-reverse;
   padding: 0 20px 0 70px;
 }
@@ -141,7 +141,7 @@
   margin: 70px 0;
 }
 .benefits-double {
-  --accent-color: $color-green;
+  color: $color-green;
   display: flex;
 }
 .benefits-double > div {
