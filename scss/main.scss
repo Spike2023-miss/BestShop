@@ -1,8 +1,9 @@
-@import "components/variables";
+@import "setings/variables";
 @import "components/basic";
-@import "components/benefits";
-@import "components/contact";
-@import "components/header";
-@import "components/opening";
-@import "components/pricing";
-@import "components/statistics";
+@import "elements/benefits";
+@import "elements/contact";
+@import "elements/header";
+@import "elements/opening";
+@import "elements/pricing";
+@import "elements/statistics";
+@import "generic/reset.css";
