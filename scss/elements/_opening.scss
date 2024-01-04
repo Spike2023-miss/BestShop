@@ -1,9 +1,10 @@
 .opening{
-  width: 1627px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  justify-content: center;
+  overflow: hidden;
 }
+
 .opening-content{
   margin-top: 130px;
   text-align: center;
@@ -32,8 +33,24 @@
     color: #000000;
     opacity: 1;
   }
-  .opening-image{
-    width: 1735px;
-    height: 594px;
-  }
 
+a.btn {
+  color: white;
+  font-weight: bold;
+  display: inline-block;
+  padding: 22px 155px;
+  border-radius: $button-radius;
+  border: none;
+  margin-top: 30px;
+}
+
+.btn-primary {
+  background-color: $color-primary;
+  border-radius: $button-radius;
+  box-shadow: 3px 10px 14px $color-primary-shadow;
+  color: $color-white;
+}
+.opening-image{
+  width: 1735px;
+  height: 594px;
+}

@@ -8,6 +8,13 @@
   display: flex;
   justify-content: space-between;
   height: 100%;
+
+}
+.container{
+  margin:0 auto;
+}
+.a{
+  text-decoration: none;
 }
 .logo {
   font-family: $font-raleway;
@@ -23,12 +30,11 @@
 
 .header-nav {
   display: flex;
-  justify-content: flex-end;
 }
 .nav-element {
   padding: 0 26px;
 }
-.nav-link {
+  .nav-link {
   color: $color-primary;
   font-weight: 700;
   font-size: 0.6875rem;
@@ -50,4 +56,10 @@
 
 .nav-element:last-child {
   padding-right: 0;
+}
+@media (max-width: 1352px) {
+  .container {
+    padding: 0 15px;
+    width: 100%;
+  }
 }
