@@ -4,11 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f3da3d30-bd85-4c8a-aeca-f9e9e929975a" name="Changes" comment="pogrupowanie">
+    <list default="true" id="f3da3d30-bd85-4c8a-aeca-f9e9e929975a" name="Changes" comment="opening">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/elements/_benefits.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/elements/_benefits.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/elements/_contact.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/elements/_contact.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/elements/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/elements/_footer.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/elements/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/elements/_header.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/elements/_opening.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/elements/_opening.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/elements/_pricing.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/elements/_pricing.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/elements/_statistics.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/elements/_statistics.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,7 +144,7 @@
       <workItem from="1702976070823" duration="62134000" />
       <workItem from="1704209514472" duration="67000" />
       <workItem from="1704209612150" duration="5061000" />
-      <workItem from="1704384246336" duration="2109000" />
+      <workItem from="1704384246336" duration="12473000" />
     </task>
     <task id="LOCAL-00001" summary="added files">
       <option name="closed" value="true" />
@@ -285,7 +290,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704280621534</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="opening">
+      <option name="closed" value="true" />
+      <created>1704386544416</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1704386544416</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -307,7 +320,6 @@
     <MESSAGE value="added files to images folder" />
     <MESSAGE value="Stworzenie plików css i dodanie reset.css" />
     <MESSAGE value="Creating css files and adding reset.css" />
-    <MESSAGE value="opening" />
     <MESSAGE value="statistics" />
     <MESSAGE value="benefits" />
     <MESSAGE value="adds" />
@@ -320,6 +332,7 @@
     <MESSAGE value="color name change" />
     <MESSAGE value="change to finish" />
     <MESSAGE value="pogrupowanie" />
-    <option name="LAST_COMMIT_MESSAGE" value="pogrupowanie" />
+    <MESSAGE value="opening" />
+    <option name="LAST_COMMIT_MESSAGE" value="opening" />
   </component>
 </project>

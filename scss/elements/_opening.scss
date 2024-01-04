@@ -50,7 +50,14 @@ a.btn {
   box-shadow: 3px 10px 14px $color-primary-shadow;
   color: $color-white;
 }
-.opening-image{
-  width: 1735px;
-  height: 594px;
+.opening-image {
+  height: auto;
+  width: 100%;
+}
+
+img {
+  vertical-align: middle;
+}
+img {
+  border: 0;
 }
