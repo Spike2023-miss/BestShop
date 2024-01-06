@@ -95,3 +95,15 @@
     width: 100%;
   }
 }
+@media (max-width: 768px){
+  .statistics-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  .statistics-title{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  }
+}
