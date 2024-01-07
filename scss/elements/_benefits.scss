@@ -182,7 +182,7 @@ h2 {
     justify-content: center;
   }
 @media (max-width: 960px) {
-  .benefits-single {
+  .benefits-container{
     display: flex;
     flex-direction: column;
     max-width: 600px;
@@ -196,6 +196,7 @@ h2 {
   }
   }
 }
+
 
 
 

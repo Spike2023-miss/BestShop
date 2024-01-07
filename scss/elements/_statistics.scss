@@ -106,4 +106,9 @@
     flex-wrap: wrap;
   }
   }
+@media (max-width: 625px){
+  .statistics-title{
+    text-align: center;
+  }
+}
 }
