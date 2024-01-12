@@ -171,8 +171,9 @@ h2 {
   display: block;
   margin-top: 50px;
 }
-@media (max-width: 1280px){
-  .benefits-single{
+
+@media (max-width: 1280px) {
+  .benefits-single {
     display: flex;
     flex-direction: column;
     max-width: 900px;
@@ -181,19 +182,19 @@ h2 {
     display: flex;
     justify-content: center;
   }
-@media (max-width: 960px) {
-  .benefits-container{
-    display: flex;
-    flex-direction: column;
-    max-width: 600px;
+  @media (max-width: 960px) {
+    .benefits-container {
+      display: flex;
+      flex-direction: column;
+      max-width: 600px;
+    }
   }
-}
-@media (max-width: 768px){
-  .benefits-single{
-    display: flex;
-    flex-direction: column;
-    max-width: 400px;
-  }
+  @media (max-width: 768px) {
+    .benefits-single {
+      display: flex;
+      flex-direction: column;
+      max-width: 400px;
+    }
   }
 }
 

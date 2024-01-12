@@ -42,7 +42,7 @@
 .nav-element {
   padding: 0 26px;
 }
-  .nav-link {
+.nav-link {
   color: $color-primary;
   font-weight: 700;
   font-size: 0.6875rem;
@@ -63,33 +63,43 @@
 .nav-element:last-child {
   padding-right: 0;
 }
-.burger {
-  width: 50px;
-  height: 50px;
-  background: none;
-  border: none;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  gap: 4px;
+.label.menu-toggle{
+  display: none;
+}
+.menu-btn {
   cursor: pointer;
   display: none;
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+  opacity: 0;
+  }
 
+  menu.toggle {
+    display: none;
+  }
+  span {
+    width: 20px;
+    height: 2px;
+    display: block;
+    margin-bottom: 3px;
+    background-color: $color-primary;
+    transition: .3s all ease-in-out;
+  }
+  span:last-child {
+    margin-bottom: 0;
+  }
   strong {
     display: none;
   }
 
-  span {
-    border-radius: 2px;
-    background: $color-primary;
-    height: 4px;
-    width: 35px;
-  }
-}
 @media (max-width: 1352px){
   .container{
     width: 100vh;
     padding: 0 15px;
+  }
+  .menu-toggle{
+    display: none;
   }
 }
 @media (max-width: 960px){
@@ -101,6 +111,9 @@
   .logo{
     padding-left: 24px;
   }
+  .menu-toggle{
+    display: none;
+  }
 }
 @media (max-width: 768px){
   .header{
@@ -108,7 +121,7 @@
     padding-top: 10px;
     padding-bottom: 10px;
   }
-  .burger{
+  .menu-toggle{
     display: flex;
     margin-right: 0;
   }

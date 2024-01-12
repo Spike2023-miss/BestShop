@@ -27,6 +27,11 @@ h2 {
 .container {
   width: 1352px;
   margin: 0 auto;
+
+  @include notebook {
+    width: 100%;
+    padding: 0 15px;
+  }
 }
 #contact{
   padding: 80px 100px 100px;
@@ -36,7 +41,6 @@ h2 {
   background: $color-white;
 }
 #prices{
-  width: 1627px;
   height: 800px;
   background: $color-white;
 }

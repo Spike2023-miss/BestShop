@@ -61,7 +61,8 @@ a.btn {
 
 img {
   vertical-align: middle;
-}
-img {
   border: 0;
+}
+@include mobile {
+
 }

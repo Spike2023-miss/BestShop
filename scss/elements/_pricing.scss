@@ -112,8 +112,9 @@
   background: $color-green;
 }
 @media (max-width: 1352px) {
-  .pricing {
+  .pricing-container{
     margin: 50px auto;
+    flex-direction: row;
   }
 }
 @media (max-width: 1352px) {
