@@ -1,30 +1,39 @@
 .footer {
   box-shadow: 0 -5px 40px #00000029;
   padding: 20px 0;
+  color: $color-grey;
+  background-color: $color-light-grey;
+  height: 89px;
+  display: flex;
+  justify-content: center;
 }
-
 .footer-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-left: 136px;
 }
 
 .footer-info {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: left;
+  max-height: 40px;
 }
-.logo{
+.logo-footer{
   color: $color-primary;
   font-family: Raleway,sans-serif;
-  font-size: 2rem;
+  font-size: 1.625rem;
   font-weight: 300;
 }
+
 .footer-copy {
-  font-size: 0.6875rem;
+  font-size: 0.688rem;
+  font-family: "Open Sans";
   line-height: 1.5rem;
   color: $color-grey;
-  margin-top: 6px;
+  width: 240px;
+  text-align: left;
 }
 
 .footer-icons a:first-of-type {
