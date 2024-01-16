@@ -112,24 +112,18 @@
   background: $color-green;
 }
 @media (max-width: 1352px) {
-  .pricing-container{
+  .pricing-container {
     margin: 50px auto;
     flex-direction: row;
   }
-}
-@media (max-width: 1352px) {
   .container {
     padding: 0 15px;
     width: 100%;
   }
-}
-@media (max-width: 1352px) {
   .pricing-boxes {
     width: 100%;
     gap: 20px;
   }
-}
-@media (max-width: 1352px) {
   .pricing-box {
     flex-direction: row;
     flex-wrap: wrap;
@@ -139,16 +133,19 @@
     padding: 25px 10px 0;
     width: 100%;
   }
-}
-@media (max-width: 1352px) {
   .pricing-details {
     margin: 0;
     width: 50%;
   }
-}
-@media (max-width: 1352px) {
   .pricing-items {
     text-align: left;
     width: 50%;
+  }
+}
+@media (max-width: 768px) {
+  .pricing-container {
+    display: none;
+    flex-direction: column;
+    align-items: center;
   }
 }

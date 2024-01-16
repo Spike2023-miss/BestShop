@@ -78,7 +78,7 @@
   menu.toggle {
     display: none;
   }
-  span {
+  .span-header {
     width: 20px;
     height: 2px;
     display: block;
@@ -93,25 +93,26 @@
     display: none;
   }
 
-@media (max-width: 1352px){
-  .container{
+@media (max-width: 1920px) {
+  .container {
     width: 100vh;
     padding: 0 15px;
   }
-  .menu-toggle{
+  .menu-toggle {
     display: none;
   }
 }
-@media (max-width: 960px){
-  .nav-element{
+
+@media (max-width: 960px) {
+  .nav-element {
     padding-left: 15px;
     padding-right: 15px;
     font-size: 15px;
   }
-  .logo{
+  .logo {
     padding-left: 24px;
   }
-  .menu-toggle{
+  .menu-toggle {
     display: none;
   }
 }
@@ -121,11 +122,11 @@
     padding-top: 10px;
     padding-bottom: 10px;
   }
-  .menu-toggle{
+  .menu-toggle {
     display: flex;
     margin-right: 0;
   }
-  .header-nav{
+  .header-nav {
     display: none;
   }
 }

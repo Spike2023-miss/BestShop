@@ -4,16 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f3da3d30-bd85-4c8a-aeca-f9e9e929975a" name="Changes" comment="change basic">
+    <list default="true" id="f3da3d30-bd85-4c8a-aeca-f9e9e929975a" name="Changes" comment="change pricing">
+      <change beforePath="$PROJECT_DIR$/.idea/Mojeprojekty.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Mojeprojekty.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js.js" beforeDir="false" afterPath="$PROJECT_DIR$/js.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/components/_basic.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/components/_basic.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/elements/_benefits.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/elements/_benefits.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/elements/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/elements/_footer.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/elements/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/elements/_header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/elements/_opening.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/elements/_opening.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/elements/_pricing.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/elements/_pricing.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/elements/_statistics.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/elements/_statistics.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/setings/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/setings/_variables.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,28 +78,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/paulinka/Documents/Coderslab/BestShop/scss/components&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/paulinka/Documents/Coderslab/BestShop/scss/components",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.stylelint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.stylelint": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "/Users/paulinka/.nvm/versions/node/v16.20.2/lib/node_modules/prettier",
+    "settings.editor.selected.configurable": "preferences.sourceCode.CSS",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;SCSS&quot;
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "SCSS"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/scss/components" />
@@ -153,6 +159,10 @@
       <workItem from="1704541387783" duration="23436000" />
       <workItem from="1704813120207" duration="37000" />
       <workItem from="1704813310214" duration="4149000" />
+      <workItem from="1705045805716" duration="1380000" />
+      <workItem from="1705071853317" duration="20000" />
+      <workItem from="1705307056025" duration="4961000" />
+      <workItem from="1705418993347" duration="7329000" />
     </task>
     <task id="LOCAL-00001" summary="added files">
       <option name="closed" value="true" />
@@ -378,7 +388,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704607141590</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="change pricing">
+      <option name="closed" value="true" />
+      <created>1705045837005</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1705045837005</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -420,6 +438,7 @@
     <MESSAGE value="burger change" />
     <MESSAGE value="statistics media added" />
     <MESSAGE value="change basic" />
-    <option name="LAST_COMMIT_MESSAGE" value="change basic" />
+    <MESSAGE value="change pricing" />
+    <option name="LAST_COMMIT_MESSAGE" value="change pricing" />
   </component>
 </project>
