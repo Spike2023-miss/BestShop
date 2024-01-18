@@ -20,3 +20,9 @@ $font-open-sans: "Open Sans", sans-serif;
     @content;
   }
 }
+
+@mixin title {
+  @media(991px> width >768px) {
+    @content;
+  }
+}

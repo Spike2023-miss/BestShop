@@ -1,6 +1,9 @@
 .benefits {
   background-color: $color-light-grey;
   padding: 100px 0;
+  display: flex;
+  justify-content: center;
+  height: 100%;
 }
 
 .benefits-container {
@@ -46,7 +49,10 @@ h2 {
   width: 332px;
   height: 4px;
   margin-top: 50px;
+}
 
+.benefits-single:nth-child(2) .benefits-text:after {
+  background-color: red;
 }
 
 .benefits-single-notebook .benefits-image {

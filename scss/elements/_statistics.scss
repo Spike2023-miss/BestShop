@@ -1,5 +1,17 @@
-.statistics{
-  margin-top: 100px;
+.statistics-container{
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  height: 531px;
+  background-color: white;
+  justify-content: start;
+  gap: 100px;
+}
+
+.statistics-blocks {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .container{
@@ -18,12 +30,6 @@
     display: flex;
     align-items: center;
   }
-.statistics-container {
-  display: flex;
-  justify-content: space-between;
-  margin: 100px auto 120px;
-  max-width: 800px;
-}
 
   .statistics-single{
     align-items: center;
@@ -31,11 +37,11 @@
     flex-direction: column;
     font-family: $font-raleway;
     justify-content: flex-start;
-    max-width: 160px;
+    max-width: 300px;
     text-align: center;
     top: 1155px;
     left: 713px;
-    width: 176px;
+    width: 300px;
     height: 167px;
 
   }

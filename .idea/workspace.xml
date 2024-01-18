@@ -4,18 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f3da3d30-bd85-4c8a-aeca-f9e9e929975a" name="Changes" comment="change pricing">
-      <change beforePath="$PROJECT_DIR$/.idea/Mojeprojekty.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Mojeprojekty.iml" afterDir="false" />
+    <list default="true" id="f3da3d30-bd85-4c8a-aeca-f9e9e929975a" name="Changes" comment="change benefits and footer">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js.js" beforeDir="false" afterPath="$PROJECT_DIR$/js.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/components/_basic.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/components/_basic.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/elements/_benefits.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/elements/_benefits.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/elements/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/elements/_footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/elements/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/elements/_header.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/elements/_pricing.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/elements/_pricing.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/elements/_statistics.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/elements/_statistics.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/setings/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/setings/_variables.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,7 +157,7 @@
       <workItem from="1705045805716" duration="1380000" />
       <workItem from="1705071853317" duration="20000" />
       <workItem from="1705307056025" duration="4961000" />
-      <workItem from="1705418993347" duration="7329000" />
+      <workItem from="1705418993347" duration="15994000" />
     </task>
     <task id="LOCAL-00001" summary="added files">
       <option name="closed" value="true" />
@@ -396,7 +391,23 @@
       <option name="project" value="LOCAL" />
       <updated>1705045837005</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="change benefits and footer">
+      <option name="closed" value="true" />
+      <created>1705429096643</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1705429096643</updated>
+    </task>
+    <task id="LOCAL-00031" summary="change benefits and footer">
+      <option name="closed" value="true" />
+      <created>1705429114487</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1705429114487</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -414,7 +425,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added files" />
     <MESSAGE value="added files to images folder" />
     <MESSAGE value="Stworzenie plików css i dodanie reset.css" />
     <MESSAGE value="Creating css files and adding reset.css" />
@@ -439,6 +449,7 @@
     <MESSAGE value="statistics media added" />
     <MESSAGE value="change basic" />
     <MESSAGE value="change pricing" />
-    <option name="LAST_COMMIT_MESSAGE" value="change pricing" />
+    <MESSAGE value="change benefits and footer" />
+    <option name="LAST_COMMIT_MESSAGE" value="change benefits and footer" />
   </component>
 </project>
