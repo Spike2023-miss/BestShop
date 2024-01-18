@@ -51,8 +51,8 @@ h2 {
   margin-top: 50px;
 }
 
-.benefits-single:nth-child(2) .benefits-text:after {
-  background-color: red;
+.benefits-single:nth-child(1) .benefits-text:after {
+  background-color: $color-redish;
 }
 
 .benefits-single-notebook .benefits-image {
@@ -182,6 +182,10 @@ h2 {
   display: block;
   margin-top: 50px;
 }
+.benefits-single-solo:nth-child(1) .benefits-text:after {
+  background-color: $color-green;
+}
+
 /*
 @media (max-width: 1280px) {
   .benefits-container {
