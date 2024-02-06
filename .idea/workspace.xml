@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f3da3d30-bd85-4c8a-aeca-f9e9e929975a" name="Changes" comment="change benefits and footer">
+    <list default="true" id="f3da3d30-bd85-4c8a-aeca-f9e9e929975a" name="Changes" comment="benefits after">
+      <change afterPath="$PROJECT_DIR$/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/elements/calculator.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/elements/_benefits.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/elements/_benefits.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/menu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/elements/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/elements/_header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/setings/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/setings/_variables.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +22,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -69,32 +74,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/paulinka/Documents/Coderslab/BestShop/scss/components",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.stylelint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.stylelint": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "prettierjs.PrettierConfiguration.Package": "/Users/paulinka/.nvm/versions/node/v16.20.2/lib/node_modules/prettier",
-    "settings.editor.selected.configurable": "preferences.sourceCode.CSS",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/paulinka/Documents/Coderslab/BestShop/scss/components&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.stylelint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.stylelint&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/Users/paulinka/.nvm/versions/node/v16.20.2/lib/node_modules/prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.CSS&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "SCSS"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;SCSS&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/scss/components" />
@@ -102,6 +107,7 @@
       <recent name="$PROJECT_DIR$/images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/js" />
       <recent name="$PROJECT_DIR$/scss/setings" />
       <recent name="$PROJECT_DIR$/scss/elements" />
       <recent name="$PROJECT_DIR$/scss/generic" />
@@ -153,7 +159,8 @@
       <workItem from="1705045805716" duration="1380000" />
       <workItem from="1705071853317" duration="20000" />
       <workItem from="1705307056025" duration="4961000" />
-      <workItem from="1705418993347" duration="17032000" />
+      <workItem from="1705418993347" duration="18424000" />
+      <workItem from="1707243546618" duration="2947000" />
     </task>
     <task id="LOCAL-00001" summary="added files">
       <option name="closed" value="true" />
@@ -411,7 +418,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705595039798</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="benefits after">
+      <option name="closed" value="true" />
+      <created>1705596156451</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1705596156451</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -429,7 +444,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added files to images folder" />
     <MESSAGE value="Stworzenie plików css i dodanie reset.css" />
     <MESSAGE value="Creating css files and adding reset.css" />
     <MESSAGE value="statistics" />
@@ -454,6 +468,7 @@
     <MESSAGE value="change basic" />
     <MESSAGE value="change pricing" />
     <MESSAGE value="change benefits and footer" />
-    <option name="LAST_COMMIT_MESSAGE" value="change benefits and footer" />
+    <MESSAGE value="benefits after" />
+    <option name="LAST_COMMIT_MESSAGE" value="benefits after" />
   </component>
 </project>

@@ -130,9 +130,9 @@
     display: none;
   }
 }
-/*
-@media (max-width: 800px){
-  .header{
+
+@media (max-width: 800px) {
+  .header {
     flex-direction: row;
     padding-top: 0;
     padding-bottom: 0;
@@ -151,13 +151,13 @@
     translate: -110% 0;
     transition: 0.2s;
   }
-  .menu.is-show{
+  .menu.is-show {
     translate: 0 0;
   }
-*/
+}
 /* osobna sekcja menu mobile*/
 
-@media (max-width: 350px){
+@media (max-width: 350px) {
   .menu{
     position: fixed;
     inset: 0 0 0 10%;
