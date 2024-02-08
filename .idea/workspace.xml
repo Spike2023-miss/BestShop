@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f3da3d30-bd85-4c8a-aeca-f9e9e929975a" name="Changes" comment="benefits after">
-      <change afterPath="$PROJECT_DIR$/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/elements/calculator.scss" afterDir="false" />
+    <list default="true" id="f3da3d30-bd85-4c8a-aeca-f9e9e929975a" name="Changes" comment="app.js">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/menu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/elements/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/elements/_header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/setings/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/setings/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,7 +155,7 @@
       <workItem from="1705071853317" duration="20000" />
       <workItem from="1705307056025" duration="4961000" />
       <workItem from="1705418993347" duration="18424000" />
-      <workItem from="1707243546618" duration="2947000" />
+      <workItem from="1707243546618" duration="4296000" />
     </task>
     <task id="LOCAL-00001" summary="added files">
       <option name="closed" value="true" />
@@ -426,7 +421,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705596156451</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="app.js">
+      <option name="closed" value="true" />
+      <created>1707252698571</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1707252698571</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -444,7 +447,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Stworzenie plików css i dodanie reset.css" />
     <MESSAGE value="Creating css files and adding reset.css" />
     <MESSAGE value="statistics" />
     <MESSAGE value="benefits" />
@@ -469,6 +471,7 @@
     <MESSAGE value="change pricing" />
     <MESSAGE value="change benefits and footer" />
     <MESSAGE value="benefits after" />
-    <option name="LAST_COMMIT_MESSAGE" value="benefits after" />
+    <MESSAGE value="app.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="app.js" />
   </component>
 </project>
